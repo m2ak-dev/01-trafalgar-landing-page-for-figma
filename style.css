@@ -1,0 +1,508 @@
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 149px;
+}
+
+.logo {
+    margin-left: 247px;
+}
+
+.navbar {
+    flex: 1;
+    text-align: right;
+    margin-right: 136px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navbar ul li a {
+    color: var(--1f1534-hyfen, #1F1534);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar ul li a:hover, 
+.navbar ul li a.active {
+    font-weight: 700;
+}
+
+.home-section {
+    margin-left: 6px;
+    
+}
+
+.element-home {
+    width: 131.581px;
+    height: 115px; 
+}
+
+.header-father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    margin-bottom: 154px;
+    margin-right: 109px;
+    width: 445px;
+    height: 338px;
+}
+
+.header-text h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px; /
+}
+
+.header-text p {
+    color: #7D7987;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px; 
+}
+
+.home-button {
+    background-color: #458FF6;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+
+.home-photo {
+    width: 693px;
+    height: 598px;
+}
+
+.our-services {
+    text-align: center;
+    margin-top: 111px;
+    background: url('img/servicebg.svg') left center no-repeat, url('img/element.svg') 87% 60.5% no-repeat;
+}
+
+.our-services h1 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px; 
+}
+
+.our-services hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+}
+
+.ourservice-text {
+    color: #7D7987;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; 
+    margin-bottom: 80px;
+}
+.servicescarddiv {
+    
+    margin-left: 240px;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+/*  justify-content: space-between; */
+    width: 100%;
+    margin-bottom: 37px; 
+  }
+  
+.box {
+    display: inline-block;
+    width: 350px; 
+    height: 354px;
+    background-color: #fff; 
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40); 
+    border-radius: 20px; 
+    text-align: left;
+    margin-right: 34px;
+}
+
+.insidediv {
+    margin: 54px 45px 46.59px 39px;
+}
+
+.carddivicon {
+    text-align: left;
+}
+
+.carddivh1 {
+    margin-top: 22.41px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+  
+.carddivp {
+    margin-top: 0;
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.generalbutton {
+    width: 200px;
+    height: 56px; 
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: #fff; 
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+
+.providers {
+    margin-top: 220px;
+}
+
+.providersdiv {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+}
+
+.providersimg {
+    margin-left: 135px;
+}
+
+.providersimg img {
+    width: 650px;
+    height: 477px; 
+}
+
+.providerscontent {
+    text-align: left;
+    width: 486px;
+    height: 388px; 
+    margin-right: 192px;
+}
+
+.providerscontent h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.providerscontent hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: #000; 
+}
+
+.providerscontent p {
+    width: 450px;
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; 
+}
+
+.mobile-app {
+    margin-top: 230px;
+}
+
+.mobile-appdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appcontent {
+    margin-left: 280px;
+    text-align: left;
+    width: 486px;
+    height: 388px; 
+}
+
+.appcontent h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.appcontent hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: #000; 
+}
+
+.appcontent p {
+    width: 420px;
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; 
+}
+
+.appimg {
+    width: 665px;
+    height: 434px; 
+    margin-right: 164px;
+}
+
+.comment {
+    margin-top: 266px;
+    background: url('img/element.svg') 13% 65% no-repeat;
+}
+
+.bgheadcomment {
+    background: url('img/element.svg') 105% -5% no-repeat;
+}
+
+.comment-head {
+    margin-left: 242px;
+    margin-right: 238px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px; 
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+
+.topcommentmar {
+    padding-top: 64px;
+    text-align: center;
+}
+
+.comment-head h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.comment-head hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    background: #FFF; 
+    border-color: #fff;
+}
+
+.comment-customer {
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.comment-customer-pic {
+    align-items: center;
+    display: flex;
+}
+
+.comment-customer-pic img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.comment-customer-content {
+    margin-left: 110px;
+    text-align: left;
+    width: 420px; 
+}
+
+.comment-customer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.customer-name {
+    margin-left: 33px;
+    text-align: left;
+}
+
+.navigation-comment {
+    display: flex;
+    margin-top: 47px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-comment svg {
+    margin-right: 89.57px;
+}
+
+.article {
+    align-items: center;
+    text-align: center;
+    margin-top: 227px;
+}
+
+.articlebg {
+    background:url('img/element.svg') 12% 10% no-repeat, url('img/Vectorarticle.svg') 100% 20% no-repeat;
+}
+
+.article-h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px; 
+}
+
+.articlehr {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+}
+
+.articlecard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 69px;
+}
+
+.articlebox {
+    margin-right: 34px;
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.article-imgg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.insidearticlebox {
+    margin-left: 33px;
+    text-align: left;
+    width: 266px; 
+}
+.articleboxh1 {
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px; 
+}
+
+.articleboxp {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.articlecardlink {
+    text-decoration: none;
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px; 
+}
+
+.elementfooter{
+    color: #fff;
+    height: 72px;
+    width: 100%;
+    background:url('img/element.svg') 12% 10% no-repeat;
+    margin-top: 129px;
+}
+
+.footer-section {
+    margin-top: 72px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%); 
+
+}
+
+.footer-head {
+    display: flex;
+}
+
+.footercontent {
+    margin-top: 118px;
+    margin-left: 190px;
+    margin-bottom: 113px;
+    width: 391px;
+    height: 201px; 
+}
+
+.footercontent p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.footer-head-link {
+    text-align: left;
+    margin-top: 118px;
+    margin-left: 190px;
+    margin-bottom: 113px;
+    display: flex;
+}
+
+.link ul {
+    padding: 0;
+    margin-right: 177px;
+}
+
+.link p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.link ul li {
+    list-style: none;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px; 
+}
